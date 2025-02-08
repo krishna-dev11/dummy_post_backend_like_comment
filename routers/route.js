@@ -8,6 +8,6 @@ const{Generatelike} = require("../controllers/likespost");
 
 router.post("/createpost" , Createpost);
 router.post("/createcomment" , Createcomment);
-router.post("/generatelike ", Generatelike);
+router.post("/generatelike", Generatelike);
 
 module.exports = router;
